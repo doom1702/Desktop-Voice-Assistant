@@ -162,9 +162,6 @@ if __name__ == '__main__':
             speak("Whom To Send Email")
             receiver = takeCommand()
             receiver = mail_id[receiver]
-            # speak("Enter Subject")
-            # print("Enter Subject")
-            # sub = takeCommand()
             speak("Tell your message")
             print("Tell your message")
             message = takeCommand()
@@ -193,13 +190,7 @@ if __name__ == '__main__':
             print(joke)
             speak(joke)
         
-        # elif 'search' in query or 'play' in query:
-             
-        #      query = query.replace("search", "")
-        #      query = query.replace("play", "")         
-        #      webbrowser.open(query) 
-
-    # Reading News
+        # Reading News
         elif 'news' in query:
              
             try:
